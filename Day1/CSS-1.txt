@@ -1,0 +1,26 @@
+1. The goal is to create a paragraph with customized text styles and display it on a webpage.
+
+Desired Output:
+
+The paragraph should have the following text styles:
+
+Font family: "Arial", sans-serif
+Font size: 18 pixels
+Font color: Blue
+Text alignment: Centered
+Text decoration: Underline
+Text transform: Uppercase
+
+2. Here's an exercise to style a hyperlink with different colors and styles using inline CSS within a single HTML page.
+
+Desired Output:
+
+The hyperlink should have the following styles:
+
+Font size: 20 pixels
+Font weight: bold
+Text decoration: none (no underline)
+When hovered over:
+Font color: red
+Background color: yellow
+Border: 2 pixels solid blue
