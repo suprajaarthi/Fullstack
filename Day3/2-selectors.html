@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+p {
+  text-align: center;
+  color: red;
+} 
+
+/* id with para1 will be affected*/
+#para1
+{
+	color: blue;
+}
+
+/* class with para2 will be affected */
+.para2
+{
+	color: orange;
+}
+
+/* In this example only <p> elements with class="header" will be brown and italic:  */
+p.header
+{
+	color: brown;
+	font-style: italic;
+}
+
+/*The universal selector (*) selects all HTML elements on the page.*/
+h1{
+	font-weight: bold;
+}
+
+/*h1, h2, p, .h3tag{
+	text-shadow: 2px 2px black;
+	color: white;
+}*/
+</style>
+</head>
+<body>
+	<h3 class="h3tag">H#!</h3>
+<p>The element selector selects HTML elements based on the element name.</p>
+<p>Every paragraph will be affected by the style.</p>
+<p id="para1">Me too!</p>
+<p>And me!</p>
+<br>
+<p>This one too !!! </p>
+<p class="para2"> Not this one </p>
+
+<h1 class="header" >Header tag </h1>
+
+<p class="header">Para tag</p>
+</body>
+</html>
+
+
